@@ -1,4 +1,4 @@
-export interface Vehicule{
+export interface VehiculeDTO{
   id: number;
   matricule: string;
   marque: string;

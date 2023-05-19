@@ -1,3 +1,6 @@
-export interface Proprietaire{
-
+export interface ProprietaireDTO {
+  id: number;
+  nom: string;
+  DateNaissance: string;
+  email: string;
 }

@@ -1,4 +1,4 @@
-export interface Radar{
+export interface RadarDTO {
   id : number;
   vitesseMax: number;
   longitude: number;
