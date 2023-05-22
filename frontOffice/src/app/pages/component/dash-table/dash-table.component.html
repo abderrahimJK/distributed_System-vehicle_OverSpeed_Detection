@@ -1,0 +1,65 @@
+
+            <div class="col">
+                <div class="table-wrap">
+                    <table class="table table-responsive-xl">
+                      <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th>Assessment</th>
+                          <th>Type</th>
+                          <th>Status</th>
+                          <th>&nbsp;</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="alert" role="alert" *ngFor="let assessment of assessments">
+                            <td>
+                                <label class="checkbox-wrap checkbox-primary">
+                                      {{assessment?.id}}
+                                      <span class="checkmark"></span>
+                                    </label>
+                            </td>
+                            <td class="d-flex align-items-center">
+                                <!-- <div class="img" style="background-image: url(images/person_1.jpg);"></div> -->
+                                <div class="pl-3 email">
+                                    <span>{{assessment?.title}}</span>
+                                    <span>Added: {{assessment?.date}}</span>
+                                </div>
+                            </td>
+                          <td>{{assessment?.assessmentType}}</td>
+                          <td class="status"><span [class]="assessment.status ? 'active': 'waiting'">{{assessment.status ? 'active': 'waiting'}}</span></td>
+                          <td>
+                              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true"><i class="fa fa-close"></i></span>
+                          </button>
+                        </td>
+                        </tr>
+                        <!-- <tr class="alert" role="alert">
+                            <td>
+                                <label class="checkbox-wrap checkbox-primary">
+                                      <input type="checkbox">
+                                      <span class="checkmark"></span>
+                                    </label>
+                            </td>
+                          <td class="d-flex align-items-center">
+                              <div class="img" style="background-image: url(images/person_2.jpg);"></div>
+                              <div class="pl-3 email">
+                                  <span>jacobthornton@email.com</span>
+                                  <span>Added: 01/03/2020</span>
+                              </div>
+                          </td>
+                          <td>Jacobthornton</td>
+                          <td class="status"><span class="waiting">Waiting for Resassignment</span></td>
+                          <td>
+                              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true"><mat-icon>close</mat-icon></span>
+                          </button>
+                        </td>
+                        </tr> -->
+                       
+                        
+                      </tbody>
+                    </table>
+                </div>
+            </div>
+
