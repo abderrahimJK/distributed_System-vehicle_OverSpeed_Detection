@@ -11,6 +11,7 @@
     <groupId>ma.enset</groupId>
     <artifactId>Abderrahim_Ait_Bouna</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>Abderrahim_Ait_Bouna</name>
     <description>Abderrahim_Ait_Bouna</description>
     <properties>

@@ -3,4 +3,5 @@ export interface RadarDTO {
   vitesseMax: number;
   longitude: number;
   latitude: number;
+  satate: boolean
 }

@@ -24,4 +24,8 @@ export class InfractionService {
       .pipe(retry(1))
 
   }
+
+  deleteInfraction(id:number):Observable<void>{
+    return this.httpClient.delete<void>(`${this.baseUrl}/${this.service}/infractions/${id}`);
+  }
 }

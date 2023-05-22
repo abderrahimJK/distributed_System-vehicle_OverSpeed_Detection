@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  api: 'http://localhost:5050/',
-  INFRACTION_SERVICE: '/INFRACTION-SERVICE',
+  api: 'http://localhost:5050',
+  INFRACTION_SERVICE: 'INFRACTION-SERVICE',
   RADAR_SERVICE: 'RADAR-SERVICE',
   IMMATRICULATION_SERVICE: 'IMMATRICULATION-SERVICE'
 };
