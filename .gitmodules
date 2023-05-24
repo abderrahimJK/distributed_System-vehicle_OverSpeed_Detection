@@ -10,3 +10,6 @@
 [submodule "Infraction_MicroService"]
 	path = Infraction_MicroService
 	url = https://github.com/abderrahimJK/Infraction_MicroService.git
+[submodule "Radar_MicroService"]
+	path = Radar_MicroService
+	url = https://github.com/abderrahimJK/Radar_MicroService.git
