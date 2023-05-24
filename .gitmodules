@@ -7,3 +7,6 @@
 [submodule "Immatriculation_MicroService"]
 	path = Immatriculation_MicroService
 	url = https://github.com/abderrahimJK/Immatriculation_MicroService.git
+[submodule "Infraction_MicroService"]
+	path = Infraction_MicroService
+	url = https://github.com/abderrahimJK/Infraction_MicroService.git
