@@ -1,0 +1,3 @@
+[submodule "eurekaDiscovery"]
+	path = eurekaDiscovery
+	url = https://github.com/abderrahimJK/eurekaDiscovery.git
