@@ -4,3 +4,6 @@
 [submodule "Gatewaye_service"]
 	path = Gatewaye_service
 	url = https://github.com/abderrahimJK/Gatewaye_service.git
+[submodule "Immatriculation_MicroService"]
+	path = Immatriculation_MicroService
+	url = https://github.com/abderrahimJK/Immatriculation_MicroService.git
