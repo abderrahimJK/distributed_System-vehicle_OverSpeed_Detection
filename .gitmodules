@@ -13,3 +13,6 @@
 [submodule "Radar_MicroService"]
 	path = Radar_MicroService
 	url = https://github.com/abderrahimJK/Radar_MicroService.git
+[submodule "Radar_Simulation"]
+	path = Radar_Simulation
+	url = https://github.com/abderrahimJK/Radar_Simulation.git
