@@ -99,3 +99,17 @@ The microservices can be deployed using containerization technologies like Docke
 ## Monitoring and Logging
 
 To monitor the health and performance of the microservices, tools like Prometheus and Grafana can be used. For logging, a centralized logging solution like ELK Stack (Elasticsearch, Logstash, and Kibana) can be implemented to aggregate and analyze logs from all microservices.
+
+---
+
+![Home]([http://url/to/img.png](https://github.com/abderrahimJK/distributed_System-vehicle_OverSpeed_Detection/blob/main/captures/img.png))
+
+![Infractions](https://github.com/abderrahimJK/distributed_System-vehicle_OverSpeed_Detection/blob/main/captures/img_1.png)
+
+![Infraction details](https://github.com/abderrahimJK/distributed_System-vehicle_OverSpeed_Detection/blob/main/captures/img_2.png)
+
+![Ticket](https://github.com/abderrahimJK/distributed_System-vehicle_OverSpeed_Detection/blob/main/captures/img_3.png)
+
+![Oner](https://github.com/abderrahimJK/distributed_System-vehicle_OverSpeed_Detection/blob/main/captures/img_4.png)
+
+![Radar](https://github.com/abderrahimJK/distributed_System-vehicle_OverSpeed_Detection/blob/main/captures/img_5.png)
