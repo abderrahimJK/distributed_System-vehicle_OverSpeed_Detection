@@ -99,4 +99,3 @@ The microservices can be deployed using containerization technologies like Docke
 ## Monitoring and Logging
 
 To monitor the health and performance of the microservices, tools like Prometheus and Grafana can be used. For logging, a centralized logging solution like ELK Stack (Elasticsearch, Logstash, and Kibana) can be implemented to aggregate and analyze logs from all microservices.
- 
